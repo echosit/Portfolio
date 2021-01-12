@@ -1,0 +1,621 @@
+/********** Global CSS ***********/
+#Homepage {
+  text-align: center;
+  margin: auto;
+ }
+ #hide {
+   display: none;
+ }
+ .center {
+   text-align: center;
+ }
+ body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fafafa;
+  color: #545454;
+  /* No text select */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+ }
+ h1, h5{
+   font-family: 'Alice', serif;
+   color: black;
+ }
+ .background {
+   padding: 10% 15%;
+ }
+ .fullscreen {
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+   min-height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 74px;
+ }
+ img {
+   width: 100%;
+   height: auto;
+ }
+ .removeOutline {
+   outline: none !important;
+ }
+ a, a:hover {
+  color: inherit; 
+ }
+ li {
+   padding-bottom: .7rem;
+ }
+ ul {
+  list-style-position: outside;
+ }
+ 
+ /********** Buttons and Links ***********/
+ .purple {
+  background-color: #992b4b;
+ }
+ .purple:hover {
+   color: white; 
+   background-color: #642236;
+ }
+ .btn {
+   border-radius: 2rem;
+   padding: 3rem 3rem; 
+   color: white; 
+   font-weight: bold;
+ }
+ .buttonLink{
+   border: 0;
+   font-size: 1.1rem;
+   padding: inherit 100px;
+ }
+ .linkSpace {
+   margin-left: 20px;
+ }
+ .linkColor {
+ color: #A8A8A8;
+ }
+ a:hover {
+   text-decoration: none;
+   outline: none !important;
+ }
+ a {
+   outline: none !important;
+ }
+ 
+ 
+ 
+ /************** Navbar ****************/
+ 
+ .name {
+  color: #312e5f !important; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+ }
+
+ /* Removing the chrome border from menu icon in navbar */
+ button:focus {outline:0;}
+ button {
+   outline: none !important;
+ }
+ .js-focus-visible :focus:not(.focus-visible) {
+   outline: none;
+ }
+ /* Removing border from bootstrap menu icon in navbar */
+ .navbar-toggler{
+   border: 0 !important;
+   position: relative;
+   right: 11px;
+ }
+ /* NavBar Container and Background */
+ .navbar-container {
+     text-align: center;
+     background-color: rgba(255,255,255, 0.9);
+ }
+ /* Hover Effects for NavBar */
+ .navbar-toggler:hover{
+   color: black;
+ }
+ a:hover a:active{
+   color: black;
+ }
+ /* NavBar Item Spacing, Size, etc. */
+ .nav-item {
+   margin-left: 20px;
+ }
+ .nav-link {
+   max-width: 75px;
+   margin: 0 auto;
+ }
+ .nav-center {
+   position: relative;
+ }
+ .underline{
+   position: relative;
+   margin-top: 4px;
+ }
+ /* Navbar About Color */
+ .aboutLink {
+   color: #992b4b !important;
+ }
+ /* NavBar Active Styling*/
+ .underline:hover{
+ border-bottom: 5px solid #e86a8f;
+ color: #545454 !important;
+ }
+ .activeNav {
+   border-bottom: 5px solid #e86a8f;
+   color: #545454 !important;
+ }
+ /* Tooltip CSS */
+ .tooltip {
+   font-size: 2rem; 
+ }
+ 
+ 
+ /************** Homepage CSS *************/
+ .title {
+   font-size: 4.25rem;
+   font-family: 'Alice', serif;
+   font-weight: bolder;
+   color: black;
+ }
+ .subtitle {
+   font-size: 1.5rem;
+ }
+ .subtitle-bold {
+   color: #312e5f; 
+   font-weight: bold;
+ }
+ .coverImg{
+   max-width: 400px;
+ }
+ .leftsideHome{
+   text-align: left;
+   padding-right: 2rem; 
+ }
+ .bigButton{
+   padding: 1rem; 
+   font-size: 1.2rem;
+ }
+ 
+ 
+ /************** About Page CSS *************/
+ .aboutHeading {
+   font-size: 2.5rem;
+   font-weight: bold;
+   text-align: center;
+ }
+ .aboutText {
+  font-size: 1.2rem;
+ }
+ .aboutImage {
+   max-width: 200px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   padding-bottom: 1rem;
+ }
+ .resumeButton {
+   margin: 0 auto;
+   font-size: 1.2rem;
+   letter-spacing: normal;
+ }
+ /* Dividers for Facts Section */
+ .gridOutline {
+   border-top: 4px solid #C8C8C8;
+   border-bottom: 4px solid #C8C8C8;
+   width: 100%
+ }
+  /************** About Page Skills CSS *************/
+  .skillWidth {
+    width: 100%; 
+  }
+  .skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 1rem;
+  }
+  .skillCard {
+    /*flex: 1 1 250px;*/ 
+    flex: 1; 
+    flex-basis: 250px;
+    padding: 2rem; 
+    border-radius: 1rem;
+    background-color: white;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .skillTitle {
+    font-family: 'Alice', serif;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .skillText {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 90%;
+  }
+  .skillPadding {
+    padding-bottom: 1.5rem;
+  }
+  .skillSpace {
+    padding-top: .2rem; 
+  }
+  .skillBold {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+  }
+ 
+ /************** About Page Timeline CSS *************/
+ .Timeline {
+   padding-top: 2rem;
+ }
+ /* Removing Responsive Timeline */
+ .smallTimeline {
+   display: none;
+ }
+ /* Timeline Styling*/
+ .timelineHeading {
+   font-size: 1.5rem;
+   color: black;
+ }
+ .timelineSubheading {
+   color: 	#989898;
+   font-size: 1rem;
+   font-family: 'Open Sans', sans-serif;
+ }
+ .timelineText {
+   font-size: 1.2rem;
+   color: #505050;
+ }
+ .timelineDate {
+   color: #505050;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.2rem;
+ }
+ .blueTimeline {
+   background-color: #312e5f;
+   border-radius: 20px;
+   padding: 8px; 
+   color: white; 
+ }
+ .purpleTimeline {
+   background-color: #992b4b;
+   border-radius: 20px;
+   padding: 8px; 
+   color: white; 
+ }
+ .grayTimeline {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 8px; 
+  color: white; 
+}
+ 
+ /************** Pretty Divider *************/
+ .hrContainer {
+   width:100%;
+   text-align: center;
+ }
+ hr {
+   border-top: 7px dotted #D3D3D3;
+   height:60px;
+   width: 100px;
+   margin-top: 65px;
+ }
+ 
+ 
+ /************** Portfolio CSS *************/
+ /* Portfolio Styling*/
+ .portfolioWidth {
+   padding: 10% 5%;
+ }
+ .carousel-indicators .active{
+   bottom:-30px;
+   background-color: #e86a8f;
+ }
+ .carousel-indicators li {
+  background-color: #c4c4c4;
+  padding: .1rem 2rem; 
+  margin: 0; 
+ }
+/* Image Display */
+.imgVertical {
+  display: none;
+}
+/* Hover Styling */
+.carousel-inner {
+  margin-bottom: 30px;
+  position: relative;
+  max-width: 700px;
+}
+.carousel-img {
+  border-radius: 1rem;
+}
+.carouselHover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  transition: .5s ease;
+  opacity: 0;
+}
+.carousel-inner:hover .carouselHover:hover {
+  background: rgba(40,35,109,0.8);
+  opacity: 1;
+}
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: inline;
+  line-height: 1.2;
+}
+.textHeading {
+  font-size: 3.5rem; 
+  font-weight: bold;
+}
+.textSubheading {
+  font-size: .9rem; 
+}
+.text:hover {
+  opacity: 1;
+}
+ .portfolioTitle {
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: black;
+ }
+ .portfolioHeading {
+   font-size: 1rem;
+ }
+ .portfolioSubheading {
+   font-size: 1rem;
+ }
+ .portfolioText {
+   font-size: 1.2rem;
+   color: #505050;
+ }
+ .portfolioButton {
+   font-size: 1.2rem;
+   letter-spacing: normal !important;
+ }
+ .blueButton {
+   background-color: #312e5f;
+   color: white !important;
+ }
+ .blueButton:hover {
+   background-color: #1C1949;
+ }
+ .grayButton {
+   background-color: #d9d9d9;
+   color: black !important; 
+ }
+ .grayButton:hover {
+  background-color: #bfbfbf;
+}
+.learnMore {
+  position: relative;
+  right: 1rem; 
+}
+
+ /* Work Details Page CSS */
+ .workContainer {
+   width: 100%;
+   height: 100%; 
+   display: flex;
+ }
+ .workHalf {
+   width: 50%;
+ }
+ .paddingRight {
+   padding-right: 2rem;
+   padding-bottom: 1rem;
+ }
+ .paddingTop {
+   padding-top: 1rem;
+ }
+ .morePaddingTop {
+  padding-top: 1.5rem;
+ }
+ .moveRight {
+   position: relative;
+   left: 1rem; 
+ }
+ .workLink {
+   color: #1C1949; 
+   font-size: 1.1rem;
+ }
+ .workLink:hover {
+  color: #992b4b; 
+}
+ .workButton {
+   padding: .5rem 1.5rem; 
+ }
+ .workHeading {
+  font-family: 'Alice', serif;
+  color:black; 
+  font-weight: bold;
+  font-size: 1.6rem;
+ }
+ .workText {
+   font-size: 1.2rem;
+ }
+ .gif {
+  border: 1rem #312e5f solid; 
+  border-radius: 1rem;
+ }
+
+ 
+ /************** Footer CSS *************/
+ .footer {
+   position: fixed;
+   text-align: center;
+   padding-top: 17px;
+   height: 56px;
+   bottom: 0;
+   width: 100%;
+   color: #737373;
+   background-color: #fafafa;
+ }
+ .footer-pink {
+    color: #e3386a; 
+ }
+ .footer-pink:hover {
+   color: #992b4b; 
+ }
+ 
+ 
+ 
+ /******* Responsive CSS ***********/
+
+ @media screen and (max-width: 991px) {
+ 
+ /* Homepage */
+.fullscreen {
+  flex-direction: column;
+}
+.leftsideHome {
+  text-align: center;
+  padding: 0; 
+}
+
+ /* Navbar */
+ .name {
+  color: #312e5f !important; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  display: none;
+ }
+ .navbar-brand {
+   display: none;
+ }
+ .navbar-toggler {
+   margin: 0 auto;
+   position: relative;
+   left: 43px;
+ }
+ .nav-item {
+   margin-left: 0;
+ }
+ 
+ /* About Page */
+ .aboutHeading {
+   text-align: center;
+   color: black; 
+ }
+ .aboutText {
+  text-align: center;
+ }
+ 
+ /* Timeline */
+ .bigTimeline {
+   display: none;
+ }
+ .smallTimeline {
+  display: inline-block;
+ }
+ .icon {
+   margin-bottom: .8rem;
+ }
+ .iconDate {
+   padding-top: 1.4rem;
+   padding-bottom: .1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .noPaddingTop {
+   padding-top: 0; 
+ }
+
+ /* Project Page */
+ .carousel-inner {
+   max-width: 350px;
+ }
+.imgVertical {
+  display: block;
+}
+.imgLandscape {
+  display: none; 
+}
+.text {
+  width: 110%; 
+}
+.card {
+  flex-direction: column; 
+  height: 100%;
+  align-items: center;
+}
+.cardBtn {
+  margin: auto;
+  width: 50%;
+}
+.cardCenter {
+  text-align: center;
+}
+.card-half {
+  width: 100%;
+}
+.projectButtons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.goToSite {
+  position: relative;
+  left: .5rem; 
+}
+.learnMore {
+  position: relative;
+  right: .5rem; 
+}
+
+ /* Work Details Page */
+ .workContainer {
+  flex-direction: column; 
+ }
+ .workHalf {
+   width: 100%;
+   text-align: center;
+ }
+ .paddingRight {
+   padding: 0; 
+ }
+  .alignLeft {
+    text-align: left;
+  }
+ .gif {
+   margin: 1rem 0; 
+ }
+
+ /* Adding Extra Space so Navbar doesn't cover stuff up */
+ .fullscreen {
+   padding-top: 74px;
+ }
