@@ -69,8 +69,6 @@
    padding: 3rem 3rem; 
    color: white; 
    font-weight: bold;
-   position: relative;
-   z-index: -2;
  }
  .buttonLink{
    border: 0;
@@ -492,6 +490,7 @@
    width: 100%;
    color: #737373;
    background-color: #fafafa;
+   z-index: 3;
  }
  .footer-pink {
     color: #e3386a; 
