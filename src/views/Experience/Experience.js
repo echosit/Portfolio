@@ -22,9 +22,9 @@ const Experience = props => {
       {/* Bootcamp Info */}
       <TimelineItem>
          <TimelineOppositeContent>
-         <h5 class="timelineDate">
+         <div class="timelineDate">
            2020 - Current
-         </h5>
+         </div>
          </TimelineOppositeContent>
          <TimelineSeparator>
            <TimelineDot class="blueTimeline">
@@ -33,24 +33,24 @@ const Experience = props => {
            <TimelineConnector />
          </TimelineSeparator>
          <TimelineContent>
-          <h5 class="timelineHeading">
+          <div class="timelineHeading">
             Self-Taught ReactJS Developer
-          </h5>
-          <h5 class="timelineSubheading">
+          </div>
+          <div class="timelineSubheading">
             6+ months
-          </h5>
-          <p class="timelineText">
+          </div>
+          <div class="timelineText">
             Hands-on experience designing and developing single page and full-stack web applications while using solid ReactJS concepts to create highly responsive user interface components
-          </p>
+          </div>
          </TimelineContent>
        </TimelineItem>
 
        {/* Bootcamp Info */}
        <TimelineItem>
          <TimelineOppositeContent>
-         <h5 class="timelineDate">
+         <div class="timelineDate">
            2020
-         </h5>
+         </div>
          </TimelineOppositeContent>
          <TimelineSeparator>
            <TimelineDot class="blueTimeline">
@@ -59,24 +59,24 @@ const Experience = props => {
            <TimelineConnector />
          </TimelineSeparator>
          <TimelineContent>
-          <h5 class="timelineHeading">
+          <div class="timelineHeading">
             Bootcamp Student
-          </h5>
-          <h5 class="timelineSubheading">
+          </div>
+          <div class="timelineSubheading">
             3 months
-          </h5>
-          <p class="timelineText">
+          </div>
+          <div class="timelineText">
             The Complete 2020 Web Development Bootcamp - Udemy Course
-          </p>
+          </div>
          </TimelineContent>
        </TimelineItem>
 
        {/* Education Info */}
        <TimelineItem>
         <TimelineOppositeContent>
-          <h5 class="timelineDate">
+          <div class="timelineDate">
            2016 - 2020
-          </h5>
+          </div>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot class="purpleTimeline">
@@ -85,22 +85,22 @@ const Experience = props => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <h5 class="timelineHeading">
+          <div class="timelineHeading">
             Bachelor of Arts in Sociology
-          </h5>
-          <h5 class="timelineSubheading">
+          </div>
+          <div class="timelineSubheading">
             Cum Laude
-          </h5>
-          <p class="timelineText">California Polytechnic State University, San Luis Obispo</p>
+          </div>
+          <div class="timelineText">California Polytechnic State University, San Luis Obispo</div>
         </TimelineContent>
        </TimelineItem>
 
        {/* Probations Info */}
        <TimelineItem>
          <TimelineOppositeContent>
-          <h5 class="timelineDate">
+          <div class="timelineDate">
            2020
-          </h5>
+          </div>
          </TimelineOppositeContent>
          <TimelineSeparator>
            <TimelineDot class="grayTimeline">
@@ -109,24 +109,24 @@ const Experience = props => {
            <TimelineConnector />
          </TimelineSeparator>
          <TimelineContent>
-          <h5 class="timelineHeading">
+          <div class="timelineHeading">
             Adult Specialty Courts Unit Intern
-          </h5>
-          <h5 class="timelineSubheading">
+          </div>
+          <div class="timelineSubheading">
             3 months
-          </h5>
-          <p class="timelineText">
+          </div>
+          <div class="timelineText">
             Probation Department, San Luis Obispo County
-          </p>
+          </div>
          </TimelineContent>
         </TimelineItem>
 
         {/* District Attorney Info */}
         <TimelineItem>
          <TimelineOppositeContent>
-          <h5 class="timelineDate">
+          <div class="timelineDate">
            2019 - 2020
-          </h5>
+          </div>
          </TimelineOppositeContent>
          <TimelineSeparator>
            <TimelineDot class="grayTimeline">
@@ -135,15 +135,15 @@ const Experience = props => {
            <TimelineConnector />
          </TimelineSeparator>
          <TimelineContent>
-          <h5 class="timelineHeading">
+          <div class="timelineHeading">
             District Attorney Intern
-          </h5>
-          <h5 class="timelineSubheading">
+          </div>
+          <div class="timelineSubheading">
             6 months
-          </h5>
-          <p class="timelineText">
+          </div>
+          <div class="timelineText">
             Office of District Attorney, San Luis Obispo County
-          </p>
+          </div>
          </TimelineContent>
        </TimelineItem>
      </Timeline>
@@ -156,85 +156,85 @@ const Experience = props => {
         <TimelineDot class="blueTimeline icon">
           <CodeIcon /> 
         </TimelineDot>
-        <p class="timelineDate">2020 - Current</p>
+        <div class="timelineDate">2020 - Current</div>
       </div>
-      <h5 class="timelineHeading">
+      <div class="timelineHeading">
         Self-Taught ReactJS Developer
-      </h5>
-      <h5 class="timelineSubheading">
+      </div>
+      <div class="timelineSubheading">
         6+ Months
-      </h5>
-      <p class="timelineText">
+      </div>
+      <div class="timelineText">
         Hands-on experience designing and developing single page and full-stack web applications while using solid ReactJS concepts to create highly responsive user interface components
-      </p>
+      </div>
 
       {/* Bootcamp Info */}
       <div class="iconDate">
         <TimelineDot class="blueTimeline icon">
           <SchoolIcon />
         </TimelineDot>
-        <p class="timelineDate">2020</p>
+        <div class="timelineDate">2020</div>
       </div>
-      <h5 class="timelineHeading">
+      <div class="timelineHeading">
         Bootcamp Student
-      </h5>
-      <h5 class="timelineSubheading">
+      </div>
+      <div class="timelineSubheading">
         3 months
-      </h5>
-      <p class="timelineText">
+      </div>
+      <div class="timelineText">
         The Complete 2020 Web Development Bootcamp - Udemy Course
-      </p>
+      </div>
 
       {/* Education Info */}
       <div class="iconDate">
         <TimelineDot class="purpleTimeline icon">
           <SchoolIcon />
         </TimelineDot>
-        <p class="timelineDate">2016 - 2020</p>
+        <div class="timelineDate">2016 - 2020</div>
       </div>
-      <h5 class="timelineHeading">
+      <div class="timelineHeading">
         Bachelor of Arts in Sociology
-      </h5>
-      <h5 class="timelineSubheading">
+      </div>
+      <div class="timelineSubheading">
         Cum Laude
-      </h5>
-      <p class="timelineText">
+      </div>
+      <div class="timelineText">
         California Polytechnic State University, San Luis Obispo
-      </p>
+      </div>
 
       {/* Probations Info */}
       <div class="iconDate">
         <TimelineDot class="grayTimeline icon">
           <AccountBalanceIcon />
         </TimelineDot>
-        <p class="timelineDate">2020</p>
+        <div class="timelineDate">2020</div>
       </div>
-      <h5 class="timelineHeading">
+      <div class="timelineHeading">
         Adult Specialty Courts Unit Intern
-      </h5>
-      <h5 class="timelineSubheading">
+      </div>
+      <div class="timelineSubheading">
         3 months
-      </h5>
-      <p class="timelineText">
+      </div>
+      <div class="timelineText">
         Probation Department, San Luis Obispo County
-      </p>
+      </div>
 
       {/* District Attorney Info */}
       <div class="iconDate">
         <TimelineDot class="grayTimeline icon">
           <GavelIcon />
         </TimelineDot>
-        <p class="timelineDate">2019 - 2020</p>
+        <div class="timelineDate">2019 - 2020</div>
       </div>
-      <h5 class="timelineHeading">
+      <div class="timelineHeading">
         District Attorney Intern
-      </h5>
-      <h5 class="timelineSubheading">
+      </div>
+      <div class="timelineSubheading">
         6 months
-      </h5>
-      <p class="timelineText">
+      </div>
+      <div class="timelineText">
         Office of District Attorney, San Luis Obispo County
-      </p>
+      </div>
     </div>
     </div>
   );

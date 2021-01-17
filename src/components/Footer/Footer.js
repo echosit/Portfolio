@@ -6,13 +6,13 @@ const Footer = () => {
   return (
   <div class="footer">
    <footer>
-      <p>
+      <div>
         Coded With Love By 
         <span>
           <Link className="footer-pink" to="/about"> Echo</Link>
         </span>
-        . Last Updated Jan 2021.
-      </p>
+        . Jan 2021.
+      </div>
    </footer>
   </div>
   );

@@ -21,8 +21,8 @@ export const Routes = () => {
         </Route>
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/DogGO" component={Doggo} />
-        <Route exact path="/Lets-Chat" component={LetsChat} />
+        <Route exact path="/doggo" component={Doggo} />
+        <Route exact path="/lets-chat" component={LetsChat} />
       </Switch>
     </div>
   );

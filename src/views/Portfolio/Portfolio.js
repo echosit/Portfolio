@@ -9,9 +9,9 @@ const Portfolio = props => {
 
           {/* Heading */}
           <Grid item xs={12}>
-            <h5 class="portfolioTitle" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
+            <div class="portfolioTitle" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
               Work.
-            </h5>
+            </div>
             <br />
           </Grid>
 
@@ -25,7 +25,7 @@ const Portfolio = props => {
               <div class="carousel-item active">
                 <div class="imgLandscape"><img draggable="false" src="DogGo.png" class="carousel-img" alt="DogGo" /></div>
                 <div class="imgVertical"><img draggable="false" src="DoggoVertical.png" class="carousel-img d-block w-100" alt="DogGo" /></div>
-                <Link to="/DogGO">
+                <Link to="/doggo">
                   <div class="carouselHover">
                     <div class="text">
                       <div class="textSubheading">A MERN Stack Ecommerce App</div>
@@ -37,7 +37,7 @@ const Portfolio = props => {
               <div class="carousel-item">
                 <div class="imgLandscape"><img draggable="false" src="lets-chat.png" class="carousel-img" alt="let's chat" /></div>
                 <div class="imgVertical"><img draggable="false" src="lets-chat-vertical.png" class="carousel-img d-block w-100" alt="DogGo" /></div>
-                <Link to="/Lets-Chat">
+                <Link to="/lets-chat">
                 <div class="carouselHover">
                   <div class="text">
                     <div class="textSubheading">A ReactJS / Node / Socket.IO Chat App</div>
