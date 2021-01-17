@@ -17,10 +17,10 @@ const WorkDetails = ({
 
 }) => (
         <div className="background">
-            <Link className="workLink" to="/Portfolio">Back to Work</Link>
-            <h5 class="portfolioTitle center paddingTop" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
+            <Link className="workLink" to="/portfolio">Back to Work</Link>
+            <div class="portfolioTitle center paddingTop" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
               About {title}.
-            </h5>
+            </div>
             <div className="workContainer" data-aos="fade-zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out">
                 <div className="workHalf paddingTop paddingRight">
                     <img className="gif" draggable="false" src={gif} alt={gifName}></img>

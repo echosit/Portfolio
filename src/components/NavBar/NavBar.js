@@ -15,7 +15,7 @@ const NavBar = () => {
       <nav class="navbar navbar-container fixed-top navbar-expand-lg navbar-light transparent">
 
         {/* Echo/Homepage Link */}
-        <a class="navbar-brand name" href="/Home">
+        <a class="navbar-brand name" href="/#/home">
           Echo Sit
         </a>
 

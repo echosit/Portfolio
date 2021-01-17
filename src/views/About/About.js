@@ -16,18 +16,18 @@ const About = props => {
 
           <div>
             {/* About Heading */}
-            <h5 class="aboutHeading">
+            <div class="aboutHeading">
               About Me. 
-            </h5>
+            </div>
             <br />
 
             {/* About Text */}
-            <p class="aboutText">
+            <div class="aboutText">
               Hi there! I am Echo, a ReactJS Developer based in the San Francisco Bay Area. In June 2020, I graduated from California Polytechnic State University, San Luis Obispo with a Bachelor’s degree in Sociology. After self-learning HTML and CSS, I shortly developed an interest for coding and enrolled in a MERN Stack Bootcamp.
-            </p>
-            <p class="aboutText">
+            </div>
+            <div class="aboutText paddingTop">
               Since graduating, I have committed myself to learning frontend and backend development and have built full-stack web applications using ReactJS, NodeJS, and MongoDB. I am a highly passionate learner and creative problem solver who loves ReactJS!
-            </p>
+            </div>
 
             {/* Resume Button */}
             <div class="text-center">
@@ -51,9 +51,9 @@ const About = props => {
         <div
           className="skillWidth" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out"
         >
-          <h5 class="aboutHeading">
+          <div class="aboutHeading">
             My Skills
-          </h5>
+          </div>
           <div className="skillContainer">
             <div className="skillCard">
             {/* Technical Skills */}
@@ -71,7 +71,7 @@ const About = props => {
             <div className="skillCard">
             {/* Technologies */}
               <div className="skillTitle skillPadding">
-                Technologies: 
+                Tools: 
               </div>
               <div className="skillBold">Frontend</div>
               <div className="skillSpace">ReactJS, Redux</div>
@@ -113,10 +113,9 @@ const About = props => {
 
         {/******** Timeline Section *********/}
         <Grid item sm={12} data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
-          <h5 class="aboutHeading">
+          <div class="aboutHeading">
             My Timeline. 
-          </h5>
-          <br /> 
+          </div>
           <br /> 
           <Experience />
         </Grid>

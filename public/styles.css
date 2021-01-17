@@ -21,12 +21,8 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
  }
- h1, h5{
-   font-family: 'Alice', serif;
-   color: black;
- }
  .background {
-   padding: 10% 15%;
+   padding: 15% 15%;
  }
  .fullscreen {
    position: absolute;
@@ -62,6 +58,7 @@
  /********** Buttons and Links ***********/
  .purple {
   background-color: #992b4b;
+  margin-top: 1.4rem;
  }
  .purple:hover {
    color: white; 
@@ -72,6 +69,8 @@
    padding: 3rem 3rem; 
    color: white; 
    font-weight: bold;
+   position: relative;
+   z-index: -2;
  }
  .buttonLink{
    border: 0;
@@ -167,6 +166,8 @@
    font-size: 4.25rem;
    font-family: 'Alice', serif;
    font-weight: bolder;
+   line-height: 4.2rem;
+   margin-bottom: .7rem;
    color: black;
  }
  .subtitle {
@@ -194,6 +195,8 @@
    font-size: 2.5rem;
    font-weight: bold;
    text-align: center;
+   font-family: 'Alice', serif;
+   color: black;
  }
  .aboutText {
   font-size: 1.2rem;
@@ -275,15 +278,20 @@
  .timelineHeading {
    font-size: 1.5rem;
    color: black;
+   font-family: 'Alice', serif;
+   line-height: normal;
+   padding-bottom: .5rem;
  }
  .timelineSubheading {
    color: 	#989898;
    font-size: 1rem;
    font-family: 'Open Sans', sans-serif;
+   padding-bottom: .5rem;
  }
  .timelineText {
    font-size: 1.2rem;
    color: #505050;
+   padding-bottom: 1rem;
  }
  .timelineDate {
    color: #505050;
@@ -378,7 +386,7 @@
   line-height: 1.2;
 }
 .textHeading {
-  font-size: 3.5rem; 
+  font-size: 3rem; 
   font-weight: bold;
 }
 .textSubheading {
@@ -391,6 +399,7 @@
    font-size: 2.5rem;
    font-weight: bold;
    color: black;
+   font-family: 'Alice', serif;
  }
  .portfolioHeading {
    font-size: 1rem;
@@ -505,6 +514,9 @@
   text-align: center;
   padding: 0; 
 }
+.title {
+  font-size: 3.2rem;
+}
 
  /* Navbar */
  .name {
@@ -529,6 +541,7 @@
  .aboutHeading {
    text-align: center;
    color: black; 
+   font-family: 'Alice', serif;
  }
  .aboutText {
   text-align: center;
@@ -618,4 +631,15 @@
  /* Adding Extra Space so Navbar doesn't cover stuff up */
  .fullscreen {
    padding-top: 74px;
+ }
+
+
+ /***** For small phones ******/
+ @media screen and (max-width: 439px) {
+/* Work Details */
+.moveRight {
+  left: 0; 
+  margin-top: .8rem;
+}
+
  }
